@@ -14,49 +14,128 @@ function App() {
   const [workers, updateWorkers] = useState([
     {
       id: uuid(),
-      charge:"Desarrollador",
-      img:"https://github.com/Andres14-Hernandez.png",
       name:"Andrés Hernández",
-      team: "Front end",
+      img:"https://github.com/Andres14-Hernandez.png",
+      team: "Front-end",
+      charge:"Desarrollador",
     },
-
     {
       id: uuid(),
-      charge: "Instructor",
-      team: "Front End",
-      img: "https://github.com/harlandlohora.png",
-      name: "Harland Lohora",
-    },
-
-    {
-      id: uuid(),
-      charge: "Instructora en Alura Latam",
-      team: "Ux y Diseño",
-      img: "https://github.com/JeanmarieAluraLatam.png",
-      name: "Jeanmarie Quijada",
-    },
-
-    {
-      id: uuid(),
-      charge: "Head de Alura e Instructor",
+      name: "Mason Reed", 
+      img: "https://randomuser.me/api/portraits/men/21.jpg",
       team: "Back-end",
-      img: "https://github.com/christianpva.png",
-      name: "Christian Velasco",
+      charge: "Desarrollador",
+    },
+    {
+      id: uuid(), 
+      name: "Liam Carter", 
+      img: "https://randomuser.me/api/portraits/men/32.jpg",
+      team: "Data Science",
+      charge: "Analista de datos",
+    },
+    {
+      id: uuid(), 
+      name: "Emma Blake", 
+      img: "https://randomuser.me/api/portraits/women/45.jpg",
+      team: "Devops",
+      charge: "Ingeniera en Devops",
     },
 
     {
-      id: uuid(),
-      charge: "Dev FullStack",
+      id: uuid(), 
+      name: "Noah Bennett", 
+      img: "https://randomuser.me/api/portraits/men/56.jpg",
+      team: "Ux y Diseño",
+      charge: "Diseñador UX",
+    },
+    {
+      id: uuid(), 
+      name: "Olivia Harris", 
+      img: "https://randomuser.me/api/portraits/women/68.jpg",
+      team: "Móvil",
+      charge: "Desarrolladora",
+    },
+    {
+      id: uuid(), 
+      name: "Ava Morgan", 
+      img: "https://randomuser.me/api/portraits/women/34.jpg",
       team: "Innovación y Gestión",
-      img: "https://github.com/JoseDarioGonzalezCha.png",
-      name: "Jose Gonzalez",
-    }
+      charge: "Especialista en innovación",
+    },
+    {
+      id: uuid(), 
+      name: "Ethan Hayes", 
+      img: "https://randomuser.me/api/portraits/men/43.jpg",
+      team: "Innovación y Gestión",
+      charge: "Project Manager",
+    },
+    {
+      id: uuid(), 
+      name: "Sophia Lane", 
+      img: "https://randomuser.me/api/portraits/women/50.jpg",
+      team: "Móvil",
+      charge: "Diseñadora Ux",
+    },
+    {
+      id: uuid(), 
+      name: "Lucas Parker", 
+      img: "https://randomuser.me/api/portraits/men/77.jpg",
+      team: "Front-end",
+      charge: "Desarrollador",
+    },
+    {
+      id: uuid(), 
+      name: "Isabella Ford", 
+      img: "https://randomuser.me/api/portraits/women/12.jpg",
+      team: "Ux y Diseño",
+      charge: "Diseñadora UI",
+    },
+    {
+      id: uuid(), 
+      name: "Logan Brooks", 
+      img: "https://randomuser.me/api/portraits/men/88.jpg",
+      team: "Devops",
+      charge: "Desarrollador",
+    },
+    {
+      id: uuid(), 
+      name: "Mia Coleman", 
+      img: "https://randomuser.me/api/portraits/women/29.jpg",
+      team: "Data Science",
+      charge: "Analista de datos",
+    },
+    {
+      id: uuid(), 
+      name: "Aiden Scott", 
+      img: "https://randomuser.me/api/portraits/men/19.jpg",
+      team: "Back-end",
+      charge: "Desarrollador",
+    },
+    {
+      id: uuid(), 
+      name: "Charlotte Dean", 
+      img: "https://randomuser.me/api/portraits/women/53.jpg",
+      team: "Back-end",
+      charge: "Desarrolladora",
+    },
+    {
+      id: uuid(), 
+      name: "James Walker", 
+      img: "https://randomuser.me/api/portraits/men/60.jpg",
+      team: "Data Science",
+      charge: "Desarrollador",
+    },
+
+
+
+
+    
 ])
 
     const [teams, updateTeams] = useState([
       {
         id: uuid(),
-        title: "Front end",
+        title: "Front-end",
         firstColor: "#82CFFA",
         secondColor: "#E8F8FF",
       },
