@@ -1,0 +1,20 @@
+.org__section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #6278F7;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: solid 4px #6278F7;
+}
+
+.org__section img{
+    position: absolute;
+    right: 25%;
+    cursor: pointer;
+}
